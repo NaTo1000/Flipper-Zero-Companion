@@ -1,0 +1,29 @@
+REM System Information Grabber
+REM Author: Flipper Zero Companion
+REM Description: Gathers system information and saves to a file
+REM Target: Windows
+REM EDUCATIONAL PURPOSES ONLY
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 1000
+STRING $info = @"
+ENTER
+STRING ========== SYSTEM INFORMATION ==========
+ENTER
+STRING Computer Name: $env:COMPUTERNAME
+ENTER
+STRING User Name: $env:USERNAME
+ENTER
+STRING OS: $(Get-WmiObject Win32_OperatingSystem | Select-Object -ExpandProperty Caption)
+ENTER
+STRING Architecture: $env:PROCESSOR_ARCHITECTURE
+ENTER
+STRING "@ ; $info | Out-File -FilePath "$env:USERPROFILE\Desktop\sysinfo.txt"
+ENTER
+DELAY 500
+STRING exit
+ENTER

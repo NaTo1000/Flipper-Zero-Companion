@@ -1,0 +1,6 @@
+Filetype: Flipper RFID key
+Key type: HIDProx
+Data: 00 00 00 00 12 34 56
+# Sample HID Prox card
+# Common access control format
+# EDUCATIONAL PURPOSES ONLY - Use only on your own systems

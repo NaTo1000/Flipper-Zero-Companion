@@ -1,0 +1,13 @@
+REM Fake Windows Update Prank
+REM Author: Flipper Zero Companion
+REM Description: Opens a fake Windows update screen
+REM Target: Windows
+REM Harmless prank - just opens a website
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://fakeupdate.net/win10u
+ENTER
+DELAY 2000
+F11
