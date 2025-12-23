@@ -4,7 +4,7 @@ Frequency: 433920000
 Preset: FuriHalSubGhzPresetOok650Async
 Protocol: Princeton
 Bit: 24
-Key: 00 00 00 00 00 AB CD EF
+Key: 00 00 00 00 00 11 22 33
 TE: 400
 # Car Key Fob Sample (Generic)
 # 433.92 MHz frequency

@@ -18,7 +18,7 @@ STRING Computer Name: $env:COMPUTERNAME
 ENTER
 STRING User Name: $env:USERNAME
 ENTER
-STRING OS: $(Get-WmiObject Win32_OperatingSystem | Select-Object -ExpandProperty Caption)
+STRING OS: $(Get-CimInstance Win32_OperatingSystem | Select-Object -ExpandProperty Caption)
 ENTER
 STRING Architecture: $env:PROCESSOR_ARCHITECTURE
 ENTER
