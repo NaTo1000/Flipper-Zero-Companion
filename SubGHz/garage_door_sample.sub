@@ -1,0 +1,11 @@
+Filetype: Flipper SubGhz Key File
+Version: 1
+Frequency: 315000000
+Preset: FuriHalSubGhzPresetOok650Async
+Protocol: Princeton
+Bit: 24
+Key: 00 00 00 00 00 12 34 56
+TE: 400
+# Garage Door Opener Sample
+# 315 MHz frequency
+# EDUCATIONAL PURPOSES ONLY - Use only on your own devices

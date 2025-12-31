@@ -1,0 +1,11 @@
+[package]
+name = "rfid_converter"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "rfid_converter"
+path = "rfid_converter.rs"
+
+[dependencies]
+# No external dependencies - uses Rust standard library only

@@ -1,0 +1,33 @@
+Filetype: IR signals file
+Version: 1
+# Device: DVD Player
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+name: Play
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1A 00 00 00
+name: Pause
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1B 00 00 00
+name: Stop
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 1C 00 00 00
+name: Next
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 20 00 00 00
+name: Prev
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 21 00 00 00

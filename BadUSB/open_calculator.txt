@@ -1,0 +1,11 @@
+REM Open Secret Calculator
+REM Author: Flipper Zero Companion
+REM Description: Opens the Windows calculator
+REM Target: Windows
+REM Super simple demo
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING calc
+ENTER

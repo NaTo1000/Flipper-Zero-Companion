@@ -1,0 +1,12 @@
+REM RickRoll Prank
+REM Author: Flipper Zero Companion
+REM Description: Opens YouTube RickRoll video
+REM Target: Windows
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+DELAY 2000
+STRING f

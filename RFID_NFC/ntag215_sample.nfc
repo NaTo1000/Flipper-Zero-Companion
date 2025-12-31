@@ -1,0 +1,24 @@
+Filetype: Flipper NFC device
+Version: 2
+# Device type can be ISO14443-3A, ISO14443-3B, ISO14443-4A, ISO14443-4B, ISO15693-3, FeliCa, NTAG/Ultralight, Mifare Classic, Mifare DESFire, EMV
+Device type: NTAG215
+# UID, ATQA and SAK are common for all formats
+UID: 04 A1 B2 C3 D4 E5 F6
+ATQA: 44 00
+SAK: 00
+# Mifare Ultralight specific data
+Data format version: 1
+Signature: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+Mifare version: 00 04 04 02 01 00 11 03
+Counter 0: 0
+Tearing 0: 00
+Counter 1: 0
+Tearing 1: 00
+Counter 2: 0
+Tearing 2: 00
+Pages total: 135
+Page 0: 04 A1 B2 C3
+Page 1: D4 E5 F6 80
+Page 2: 48 00 00 00
+# Sample NTAG215 card
+# Can be used for amiibo cloning
