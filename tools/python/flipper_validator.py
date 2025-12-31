@@ -145,9 +145,11 @@ class FlipperValidator:
         for i, line in enumerate(lines, 1):
             line = line.strip()
             if line and not line.startswith('REM'):
-                cmd = line.split()[0] if line else ''
-                if cmd and cmd not in valid_commands:
-                    self.warnings.append(f"{filename}:{i}: Unknown command '{cmd}'")
+                parts = line.split()
+                if parts:  # Check if split result has elements
+                    cmd = parts[0]
+                    if cmd and cmd not in valid_commands:
+                        self.warnings.append(f"{filename}:{i}: Unknown command '{cmd}'")
 
 
 def main():

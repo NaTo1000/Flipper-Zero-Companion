@@ -143,7 +143,7 @@ impl CardConverter {
         
         match key_type {
             "EM4100" => {
-                println!("EM4100 (EM Marin):");
+                println!("EM4100 (EM Marine):");
                 println!("  - Read-only 125kHz RFID tag");
                 println!("  - Common in access control, animal tags");
                 println!("  - 40-bit unique ID (5 bytes)");

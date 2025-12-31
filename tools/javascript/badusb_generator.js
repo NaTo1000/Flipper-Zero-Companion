@@ -240,7 +240,7 @@ function main() {
     return;
   }
 
-  if (args[0] === '--interactive' || args[0] === '-i' || args.length === 0) {
+  if (args[0] === '--interactive' || args[0] === '-i') {
     interactive();
     return;
   }
