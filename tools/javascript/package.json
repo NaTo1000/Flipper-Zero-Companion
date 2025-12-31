@@ -1,0 +1,21 @@
+{
+  "name": "badusb-generator",
+  "version": "1.0.0",
+  "description": "BadUSB Script Generator for Flipper Zero",
+  "main": "badusb_generator.js",
+  "scripts": {
+    "start": "node badusb_generator.js",
+    "list": "node badusb_generator.js --list"
+  },
+  "keywords": [
+    "flipper-zero",
+    "badusb",
+    "rubber-ducky",
+    "payload-generator"
+  ],
+  "author": "Flipper Zero Companion",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

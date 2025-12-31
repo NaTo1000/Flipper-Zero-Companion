@@ -51,6 +51,15 @@ iButton (1-Wire) contact key files for access control systems.
 - Cyfral keys
 - [Read More](iButton/README.md)
 
+### [tools/](tools/)
+Companion utility programs in multiple programming languages for managing and working with Flipper Zero files.
+- **Python**: File format validator
+- **JavaScript**: BadUSB script generator
+- **Go**: SubGHz signal analyzer
+- **Rust**: RFID/NFC card data converter
+- **Ruby**: IR remote signal database manager
+- [Read More](tools/README.md)
+
 ## 🚀 Getting Started
 
 ### Prerequisites

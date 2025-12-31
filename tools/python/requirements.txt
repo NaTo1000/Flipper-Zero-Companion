@@ -1,0 +1,8 @@
+# Python Requirements
+# No external dependencies required - uses Python standard library only
+
+# Minimum Python version: 3.6+
+# Tested on: Python 3.8, 3.9, 3.10, 3.11
+
+# To run the validator:
+# python3 flipper_validator.py <file_or_directory>
